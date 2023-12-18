@@ -60,18 +60,29 @@ _Breve descripción de la captura de pantalla._
 
 ### Conceptualización y Diseño
 
-- Desarrollé la visión general del proyecto y diseñé la estructura inicial.
+- Uno de mis primeros proyectos.
 - Seleccioné la paleta de colores y fuentes para lograr una identidad visual coherente.
 
-### Implementación de la Interfaz
+### Implementación de la Interfaz HTML
 
-- Estructuré el HTML para las distintas secciones del sitio.
-- Apliqué estilos usando CSS, asegurándome de que el diseño sea atractivo y fácil de entender.
+1. Creación de textos con HTML para las distintas secciones del sitio.
+2. Estructura del contenido.
 
-### Integración de Funcionalidades
+#### 🔎 ¿Cuándo utilizar `<section>` o `<main>`?
 
-- Añadí la lógica del formulario de contacto utilizando JavaScript.
-- Implementé animaciones y transiciones para mejorar la experiencia del usuario.
+> Si el primer elemento hijo de la etiqueta es un `<h>`, deberías utilizar `<section>`. No obstante, existe una excepción: si este contenido es el principal, entonces debes utilizar `<main>`.
+
+3. Creación de enlaces y navegación.
+
+> El menu es de un solo nivel, por tal motivo utilice la etiqueta `<nav>` y directamente los enlaces.
+
+4. Anadiendo iconos.
+
+   > Puedes encontrar una amplia colección de iconos en [Tabler Icons](https://tablericons.com/). Estos iconos son proporcionados por Tabler Icons y pueden mejorar la apariencia de tu página web.
+
+5. Formulario
+
+### Fase de diseño usando CSS
 
 ### Optimización y Pruebas
 
