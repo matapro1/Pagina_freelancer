@@ -82,7 +82,56 @@ _Breve descripción de la captura de pantalla._
 
 5. Formulario
 
+En la sección de contacto de mi página web, he implementado un formulario que permite a los usuarios comunicarse con nosotros de manera sencilla. La estructura HTML de este formulario está diseñada para ser clara y fácil de entender, y se compone de los siguientes elementos:
+
+    <section>:
+        Utilizo el elemento <section> para encapsular toda la sección de contacto, proporcionando una organización semántica al contenido.
+
+    <h2> - Encabezado de la Sección:
+        El encabezado <h2> se utiliza para proporcionar un título descriptivo a la sección de contacto. En este caso, he etiquetado la sección como "Contacto".
+
+    <form> - Formulario:
+        La etiqueta <form> encapsula todo el contenido del formulario. Esto incluye todos los campos de entrada y botones relacionados con la información de contacto.
+
+    <fieldset> y <legend>:
+        He utilizado el elemento <fieldset> para agrupar lógicamente los elementos del formulario, y <legend> para proporcionar una leyenda descriptiva. Esto mejora la accesibilidad y la comprensión del propósito del formulario.
+
+    Campos del formulario (<label>, <input>, <textarea>):
+        Cada campo del formulario está compuesto por un par <label> y <input> o <textarea>. Las etiquetas <label> mejoran la accesibilidad y la usabilidad, vinculando el texto descriptivo con el campo correspondiente.
+
+    Atributos type en los campos de entrada:
+        Utilizo atributos type específicos en los campos de entrada para indicar el tipo de datos que se espera. Por ejemplo, type="text" para el nombre, type="tel" para el teléfono, y type="email" para la dirección de correo electrónico.
+
+    Botón de Enviar (<input type="submit">):
+        La etiqueta <input> con type="submit" representa el botón de envío del formulario. Este botón permite a los usuarios enviar la información ingresada en el formulario.
+
+Estos elementos y su organización siguen las mejores prácticas de HTML y están diseñados para mejorar la legibilidad del código y la experiencia del usuario. La estructura HTML proporciona una base sólida para la implementación de la funcionalidad de contacto en mi página web.
+
 ### Fase de diseño usando CSS
+
+Enlaces de Estilo CSS en tu Página Web:
+
+    <link rel="preload" href="css/style.css" as="style" />:
+        Esta línea se utiliza para precargar la hoja de estilo principal de tu página web antes de que el navegador comience a renderizar la página. Al usar rel="preload" con as="style", estás indicando al navegador que este recurso es crítico y debe cargarse anticipadamente. Esto ayuda a mejorar la velocidad de carga al asegurar que la hoja de estilo esté disponible cuando se necesite.
+
+    <link rel="stylesheet" href="css/style.css" />:
+        Este enlace carga la hoja de estilo principal para tu página web. Después de la precarga mencionada anteriormente, esta línea garantiza que la hoja de estilo se aplique correctamente al contenido de tu página. El atributo href especifica la ubicación de la hoja de estilo en el directorio "css".
+
+Propósito y Beneficios:
+
+    Optimización de Carga:
+        El uso de rel="preload" optimiza la carga de tu hoja de estilo, mejorando la experiencia del usuario al acelerar el tiempo de renderizado de la página.
+
+    Separación de Responsabilidades:
+        Separar la precarga (rel="preload") de la carga estándar (rel="stylesheet") permite que el navegador gestione de manera más eficiente los recursos críticos para la presentación inicial de la página.
+
+    Organización del Código:
+        Mantener la hoja de estilo en un archivo separado y enlazarla desde todas las páginas ayuda a organizar y mantener tu código de manera más efectiva.
+
+    Cache del Navegador:
+        El navegador puede cachear la hoja de estilo después de la primera carga, lo que significa que en visitas subsiguientes, la página puede cargarse más rápidamente ya que el recurso está almacenado localmente en la máquina del usuario.
+
+En resumen, estas líneas de código contribuyen a una carga eficiente y una presentación estilizada de tu página web al precargar y aplicar la hoja de estilo principal.
 
 ### Optimización y Pruebas
 
