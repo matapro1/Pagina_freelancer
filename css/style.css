@@ -1,9 +1,9 @@
 :root{
   --blanco:#FFFFFF;
-  --oscuro: #333333;
-  --primario: #FFA500;
-  --secundario: #007BFF;
-  --gris:#CCCCCC;
+  --oscuro: #212121;
+  --primario: #ffc107;
+  --secundario: #008C9C;
+  --gris:#757575;
 }
 
 html{
@@ -17,9 +17,29 @@ body{
 .titulo{
   text-align: center;
   font-size: 3.8rem;
-  color: var(--secundario);
 }
 
 .titulo span{
   font-size: 2rem;
+}
+
+.contenedor{
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.nav-bg{
+  background-color: var(--secundario);
+
+}
+
+.navegacion-principal{
+padding: 1rem;
+display: flex;
+justify-content: space-between;
+}
+
+.navegacion-principal a{
+  color: var(--blanco);
+  text-decoration: none;
 }
