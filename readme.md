@@ -45,6 +45,13 @@ _Breve descripción de la captura de pantalla._
 - `/js`: Archivos JavaScript, organizados por funcionalidad.
 - `/screenshots`: Capturas de pantalla del proyecto.
 
+
+## Estilos para escribir código css
+
+- Módulos
+- Utilidades
+
+
 ## Cómo Empezar
 
 1. Clona este repositorio: `git clone https://github.com/tuusuario/tuproject.git`
