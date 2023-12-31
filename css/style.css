@@ -4,8 +4,10 @@
   --primario: #ffc107;
   --secundario: #008C9C;
   --gris:#757575;
+  --grisClaro: #DFE9F3;
 }
 
+/* Globales */
 html{
   font-size: 62.5%;
   box-sizing: border-box;
@@ -18,26 +20,7 @@ html{
 body{
   font-size: 16px; /*1rem = 10px */
   font-family: 'Krub', sans-serif;
-}
-
-h1{
-  font-size: 3.8rem;
-}
-
-h2{
-  font-size: 2.8rem;
-}
-
-h3{
-  font-size: 1.8rem;
-}
-
-h1,h2,h3{
-  text-align: center;
-}
-
-.titulo span{
-  font-size: 2rem;
+  background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
 
 .contenedor{
@@ -64,17 +47,47 @@ h1,h2,h3{
     width: auto;
   }
 }
-.nav-bg{
-  background-color: var(--secundario);
 
+.sombra{
+  -webkit-box-shadow: 0px 15px 5px 0px rgba(112,112,112,0.48);
+-moz-box-shadow: 0px 15px 5px 0px rgba(112,112,112,0.48);
+box-shadow: 0px 15px 5px 0px rgba(112,112,112,0.48);
+padding: 2rem;
+border-radius: 1rem;
 }
 
+/* Tipografía*/
+h1{
+  font-size: 3.8rem;
+}
+
+h2{
+  font-size: 2.8rem;
+}
+
+h3{
+  font-size: 1.8rem;
+}
+
+h1,h2,h3{
+  text-align: center;
+}
+
+/* Títulos */
+.titulo span{
+  font-size: 2rem;
+}
+
+
+/* Navegacion principal */
 .navegacion-principal{
 display: flex;
 flex-direction: column;
-
 }
 
+.nav-bg{
+  background-color: var(--secundario);
+}
 @media screen and (min-width: 768px) {
   .navegacion-principal{
     flex-direction: row;
@@ -96,12 +109,14 @@ background-color: var(--primario);
 color: var(--oscuro);
 }
 
+/* Hero */
 .hero{
   background-image: url(../img/hero.jpg);
   background-repeat: no-repeat0;
   background-size: cover;
   height: 450px;
   position: relative;
+  margin-bottom: 2rem ;
 }
 
 .contenido-hero {
@@ -120,7 +135,7 @@ justify-content: center;
   color: var(--blanco);
 }
 
-.ubicacion{
+.contenido-hero ubicacion{
   display: flex;
   align-items: flex-end;
 }
