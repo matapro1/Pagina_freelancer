@@ -1,3 +1,7 @@
+![Logo de Mi Proyecto](/img/4-removebg-preview.png)
+ 
+
+
 # Página Web de Diseño y Desarrollo Web Freelancer
 
 ## Descripción del Proyecto
@@ -6,11 +10,11 @@ Este proyecto es una página web profesional que ofrece servicios de desarrollo 
 
 ## Capturas de Pantalla
 
-![Captura de Pantalla 1](/screenshots/screenshot1.png)
-_Breve descripción de la captura de pantalla._
+![Captura de Pantalla 1](/img/Responsively-Screenshots/Galaxy%20S21%20Ultra-1704555367666.jpeg)
+_Vista desde dispositivo movil._
 
-![Captura de Pantalla 2](/screenshots/screenshot2.png)
-_Breve descripción de la captura de pantalla._
+![Captura de Pantalla 2](/img/Responsively-Screenshots/MacBook%20Pro-1704555367627.jpeg)
+_Vista desde un pc._
 
 ## Características Principales
 
@@ -180,6 +184,9 @@ Estos tamaños de fuente relativos proporcionan una estructura escalable y facil
 ### Despliegue
 
 - Subí el proyecto a un servidor o plataforma de alojamiento web.
+  - [Visita mi Sitio Web](https://freelancermatapro.netlify.app/)
+
+
 
 ## Contribuciones
 
